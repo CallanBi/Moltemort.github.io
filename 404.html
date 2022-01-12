@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>请访问新站点 https://callanbi.top</title>
+  </head>
+  <body>
+    <p>
+      跳转中，访问新域名站点<a href="https://callanbi.top" target="_blank"
+        >https://callanbi.top</a
+      >
+    </p>
+  </body>
+  <script src="http://cdn.bootcss.com/purl/2.3.1/purl.min.js"></script>
+  <script>
+    const url = purl();
+    if (url.attr("host") == "moltemort.top") {
+      const oldUrl = url.attr("source");
+      const newUrl = oldUrl.replace("moltemort.top", "callanbi.top");
+      window.location.replace(newUrl);
+    } else if (url.attr("host") == "www.moltemort.top") {
+      const oldUrl = url.attr("source");
+      const newUrl = old_url.replace("www.moltemort.top", "callanbi.top");
+      window.location.replace(newUrl);
+    } else {
+      window.location.href = "https://www.callanbi.top";
+    }
+  </script>
+</html>
